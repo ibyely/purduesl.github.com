@@ -14,18 +14,18 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #C28E0E; }
+  border-color: #BAA892; }
 
 hr.light {
   border-color: white; }
 
 a {
-  color: #C28E0E;
+  color: #BAA892;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
-    color: #C28E0E; }
+    color: #BAA892; }
 
 h1,
 h2,
@@ -41,7 +41,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #C28E0E !important; }
+  background-color: #BAA892 !important; }
 
 .bg-dark {
   color: white;
@@ -77,69 +77,21 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222222; }
 
-#mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s; }
-  #mainNav .navbar-brand {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #C28E0E;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
-    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #C28E0E; }
-  #mainNav .navbar-toggle {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #222222; }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #222222; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #C28E0E; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #C28E0E !important;
-      background-color: transparent; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        background-color: transparent; }
-  @media (min-width: 3px) {
-    #mainNav {
-      border-color: rgba(255, 255, 255, 0.3);
-      background-color: transparent; }
-      #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: white; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: white; }
-      #mainNav.navbar-shrink {
-        border-color: rgba(34, 34, 34, 0.05);
-        background-color: white; }
-        #mainNav.navbar-shrink .navbar-brand {
-          font-size: 16px;
-          color: #C28E0E; }
-          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #C28E0E; }
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #222222; }
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #C28E0E; } }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #BAA892;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #C28E0E; /*BACKGROUND color for active*/
+background-color: white;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+	color: black;
+}
 
 header.masthead {
   position: relative;
@@ -253,7 +205,7 @@ header.masthead {
     margin: 0 auto 20px; }
 
 .text-primary {
-  color: #C28E0E !important; }
+  color: #BAA892 !important; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -298,8 +250,8 @@ header.masthead {
 
 .btn-primary {
   color: white;
-  border-color: #C28E0E;
-  background-color: #C28E0E; }
+  border-color: #BAA892;
+  background-color: #BAA892; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: #a4270d;
@@ -327,10 +279,10 @@ header.masthead {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #C28E0E;
-    background-color: #C28E0E; }
+    border-color: #BAA892;
+    background-color: #BAA892; }
   .btn-primary .badge {
-    color: #C28E0E;
+    color: #BAA892;
     background-color: white; }
 
 .btn {
