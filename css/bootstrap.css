@@ -164,6 +164,11 @@ input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
+img {
+   max-width: 100%;
+   height: auto;
+}
+
 textarea {
   overflow: auto;
   vertical-align: top;
