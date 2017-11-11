@@ -203,7 +203,25 @@ header.masthead {
   padding: 50px 0; }
   .call-to-action h2 {
     margin: 0 auto 20px; }
-
+	
+.centerDiv { 
+width: 60%; 
+height:0px; 
+margin: 0 auto;
+float: center;
+vertical-align: middle;
+}
+	
+.tag {
+   float: center;
+   vertical-align: middle;
+   position: absolute;
+   color: #FFFFFF;
+   font-weight: bold;
+   left: 0px;
+   right:0px;
+   margin: 0 auto
+}
 .text-primary {
   color: #BAA892 !important; }
 
